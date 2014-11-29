@@ -1,4 +1,7 @@
-iOS Projects
+Color Picker Example
 ============
 
-Various iOS projects
+A simple color picker popover
+
+Screenshot:
+![alt text](https://raw.githubusercontent.com/EthanStrider/iOS-Projects/master/ColorPickerExample/colorPicker.png "Image Picker Screenshot")
