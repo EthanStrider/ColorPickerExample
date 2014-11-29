@@ -1,4 +1,4 @@
-iOS-Projects
+iOS Projects
 ============
 
-iOS Projects
+Various iOS projects
