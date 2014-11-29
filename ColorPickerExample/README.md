@@ -1,4 +1,4 @@
-Color Picker Example
+Color Picker Popover Example
 ============
 
 A simple color picker popover
