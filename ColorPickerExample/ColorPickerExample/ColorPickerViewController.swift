@@ -6,7 +6,7 @@ Created by Ethan Strider on 11/28/14.
 
 The MIT License (MIT)
 
-Copyright (c) <year> <copyright holders>
+Copyright (c) 2014 Ethan Strider
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -37,7 +37,7 @@ class ColorPickerViewController: UIViewController, UICollectionViewDelegate, UIC
 	var color: UIColor = UIColor.grayColor()
 	var delegate: ViewController? = nil
 	
-	// This function converts from HTML colors (hex strings of the form 'ffffff') to UIColors
+	// This function converts from HTML colors (hex strings of the form '#ffffff') to UIColors
 	func hexStringToUIColor (hex:String) -> UIColor {
 		var cString:String = hex.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet() as NSCharacterSet).uppercaseString
 		

@@ -6,7 +6,7 @@ Created by Ethan Strider on 11/28/14.
 
 The MIT License (MIT)
 
-Copyright (c) <year> <copyright holders>
+Copyright (c) 2014 Ethan Strider
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -38,7 +38,7 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
 	// Generate popover on button press
 	@IBAction func colorPickerButton(sender: UIButton) {
 	
-		let popoverVC = storyboard?.instantiateViewControllerWithIdentifier("colorPalettePopover") as ColorPickerViewController
+		let popoverVC = storyboard?.instantiateViewControllerWithIdentifier("colorPickerPopover") as ColorPickerViewController
 		popoverVC.modalPresentationStyle = .Popover
 		popoverVC.preferredContentSize = CGSizeMake(284, 446)
 		if let popoverController = popoverVC.popoverPresentationController {

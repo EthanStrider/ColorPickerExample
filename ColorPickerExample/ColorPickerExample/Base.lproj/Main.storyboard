@@ -43,7 +43,7 @@
         <!--Color Picker View Controller-->
         <scene sceneID="mEH-od-1QM">
             <objects>
-                <viewController storyboardIdentifier="colorPalettePopover" id="eof-Xq-4at" customClass="ColorPickerViewController" customModule="ColorPickerExample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="colorPickerPopover" id="eof-Xq-4at" customClass="ColorPickerViewController" customModule="ColorPickerExample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TuB-Bs-sHb"/>
                         <viewControllerLayoutGuide type="bottom" id="d7N-fH-z0R"/>
