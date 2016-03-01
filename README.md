@@ -5,7 +5,7 @@ A simple color picker popover
 
 Screenshot:
 
-![alt text](https://raw.githubusercontent.com/EthanStrider/iOS-Projects/master/ColorPickerExample/colorPicker.png "Image Picker Screenshot")
+![alt text](https://raw.githubusercontent.com/EthanStrider/ColorPickerExample/master/colorPicker.png "Image Picker Screenshot")
 
 The MIT License (MIT)
 
