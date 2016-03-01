@@ -52,7 +52,7 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
 	}
 	
 	// Override the iPhone behavior that presents a popover as fullscreen
-	func adaptivePresentationStyleForPresentationController(controller: UIPresentationController!) -> UIModalPresentationStyle {
+	func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
 		// Return no adaptive presentation style, use default presentation behaviour
 		return .None
 	}

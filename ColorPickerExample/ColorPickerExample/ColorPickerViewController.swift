@@ -67,7 +67,7 @@ class ColorPickerViewController: UIViewController, UICollectionViewDelegate, UIC
 	}
 	// UICollectionViewDataSource Protocol:
 	// Returns the number of columns in collection view
-	internal func numberOfSectionsInCollectionView(collectionView: UICollectionView!) -> Int {
+	internal func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
 		return 16
 	}
 	// UICollectionViewDataSource Protocol:
@@ -82,7 +82,7 @@ class ColorPickerViewController: UIViewController, UICollectionViewDelegate, UIC
 	}
 	
 	// Recognizes and handles when a collection view cell has been selected
-	internal func collectionView(collectionView: UICollectionView!, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+	internal func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
 		
 		var colorPalette: Array<String>
 		
