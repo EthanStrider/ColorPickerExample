@@ -38,7 +38,7 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
 	// Generate popover on button press
 	@IBAction func colorPickerButton(sender: UIButton) {
 	
-		let popoverVC = storyboard?.instantiateViewControllerWithIdentifier("colorPickerPopover") as ColorPickerViewController
+		let popoverVC = storyboard?.instantiateViewControllerWithIdentifier("colorPickerPopover") as! ColorPickerViewController
 		popoverVC.modalPresentationStyle = .Popover
 		popoverVC.preferredContentSize = CGSizeMake(284, 446)
 		if let popoverController = popoverVC.popoverPresentationController {

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3748729F-68BA-458C-8914-5C58CE759723</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ColorPickerExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>18A1D5CB09DB30344839F70542DE764578C83076</key>
+		<string>https://github.com/EthanStrider/iOS-Projects.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ColorPickerExample/ColorPickerExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>18A1D5CB09DB30344839F70542DE764578C83076</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/EthanStrider/iOS-Projects.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>18A1D5CB09DB30344839F70542DE764578C83076</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>18A1D5CB09DB30344839F70542DE764578C83076</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Projects</string>
+		</dict>
+	</array>
+</dict>
+</plist>
