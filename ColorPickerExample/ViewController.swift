@@ -36,25 +36,25 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
 	@IBOutlet var button: UIButton!
 	
 	// Generate popover on button press
-	@IBAction func colorPickerButton(sender: UIButton) {
+	@IBAction func colorPickerButton(_ sender: UIButton) {
 	
-		let popoverVC = storyboard?.instantiateViewControllerWithIdentifier("colorPickerPopover") as! ColorPickerViewController
-		popoverVC.modalPresentationStyle = .Popover
-		popoverVC.preferredContentSize = CGSizeMake(284, 446)
+		let popoverVC = storyboard?.instantiateViewController(withIdentifier: "colorPickerPopover") as! ColorPickerViewController
+		popoverVC.modalPresentationStyle = .popover
+		popoverVC.preferredContentSize = CGSize(width: 284, height: 446)
 		if let popoverController = popoverVC.popoverPresentationController {
 			popoverController.sourceView = sender
 			popoverController.sourceRect = CGRect(x: 0, y: 0, width: 85, height: 30)
-			popoverController.permittedArrowDirections = .Any
+			popoverController.permittedArrowDirections = .any
 			popoverController.delegate = self
 			popoverVC.delegate = self
 		}
-		presentViewController(popoverVC, animated: true, completion: nil)
+		present(popoverVC, animated: true, completion: nil)
 	}
 	
 	// Override the iPhone behavior that presents a popover as fullscreen
-	func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
+	func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
 		// Return no adaptive presentation style, use default presentation behaviour
-		return .None
+		return .none
 	}
 	
 	override func viewDidLoad() {
@@ -67,8 +67,8 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
 		// Dispose of any resources that can be recreated.
 	}
 	
-	func setButtonColor (color: UIColor) {
-		button.setTitleColor(color, forState:UIControlState.Normal)
+	func setButtonColor (_ color: UIColor) {
+		button.setTitleColor(color, for:UIControlState())
 	}
 
 

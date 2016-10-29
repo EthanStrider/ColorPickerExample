@@ -167,9 +167,12 @@
 				TargetAttributes = {
 					4F9CA9DF1A2A211D00D5E861 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 27T3A3GGYG;
+						LastSwiftMigration = 0800;
 					};
 					4F9CA9F41A2A211D00D5E861 = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 4F9CA9DF1A2A211D00D5E861;
 					};
 				};
@@ -344,9 +347,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27T3A3GGYG;
 				INFOPLIST_FILE = ColorPickerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -355,9 +360,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27T3A3GGYG;
 				INFOPLIST_FILE = ColorPickerExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -377,6 +384,7 @@
 				INFOPLIST_FILE = ColorPickerExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorPickerExample.app/ColorPickerExample";
 			};
 			name = Debug;
@@ -392,6 +400,7 @@
 				INFOPLIST_FILE = ColorPickerExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorPickerExample.app/ColorPickerExample";
 			};
 			name = Release;
@@ -415,6 +424,7 @@
 				4F9CAA011A2A211D00D5E861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F9CAA021A2A211D00D5E861 /* Build configuration list for PBXNativeTarget "ColorPickerExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +433,7 @@
 				4F9CAA041A2A211D00D5E861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
