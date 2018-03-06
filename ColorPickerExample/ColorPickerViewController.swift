@@ -45,7 +45,7 @@ class ColorPickerViewController: UIViewController, UICollectionViewDelegate, UIC
 			cString.remove(at: cString.startIndex)
 		}
 		
-		if (cString.characters.count != 6) {
+		if (cString.count != 6) {
 			return UIColor.gray
 		}
 		
@@ -94,8 +94,8 @@ class ColorPickerViewController: UIViewController, UICollectionViewDelegate, UIC
 		if let colorPalettePlistFile = pListArray {
 			colorPalette = colorPalettePlistFile as! [String]
 			
-			var cell: UICollectionViewCell  = collectionView.cellForItem(at: indexPath)! as UICollectionViewCell
-			var hexString = colorPalette[cell.tag]
+            let cell: UICollectionViewCell  = collectionView.cellForItem(at: indexPath)! as UICollectionViewCell
+            let hexString = colorPalette[cell.tag]
 			color = hexStringToUIColor(hexString)
 			self.view.backgroundColor = color
 			delegate?.setButtonColor(color)
